@@ -1,5 +1,5 @@
 import { Assignee, Context, Sender } from "../../types";
-import { addCommentToIssue, closePullRequestForAnIssue } from "../../utils/issue";
+import { closePullRequestForAnIssue } from "../../utils/issue";
 import { HttpStatusCode, Result } from "../result-types";
 
 export async function stop(
